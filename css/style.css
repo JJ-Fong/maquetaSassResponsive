@@ -1,0 +1,112 @@
+.section {
+  background-clip: content-box;
+  height: 300px;
+  padding: 5px 10px 5px 10px; }
+
+.red {
+  background-color: #0a2c70; }
+
+.lightgreen {
+  background-color: #14367a; }
+
+.yellow {
+  background-color: #1e4084; }
+
+.d4 {
+  background-clip: content-box;
+  background-color: lightblue;
+  height: 75px;
+  padding: 5px 160px 5px 10px;
+  position: relative; }
+
+.d4 input[type="text"] {
+  background-color: white;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  width: 100%; }
+
+.d4 input[type="button"] {
+  height: 75px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 150px; }
+
+.orange {
+  background-color: #284a8e; }
+
+.purple {
+  background-color: #325498; }
+
+.green {
+  background-color: #3c5ea2; }
+
+.brown {
+  background-color: #4668ac; }
+
+@media only screen and (min-device-width: 481px) {
+  .tablet {
+    box-sizing: content-box;
+    height: 300px;
+    padding: 5px 10px 5px 10px;
+    position: relative; }
+  .orange, .purple {
+    background-color: white;
+    box-sizing: content-box;
+    float: left;
+    left: 0;
+    padding: 0;
+    position: relative;
+    width: 50%; }
+  .innero {
+    background-color: #284a8e;
+    padding-right: 5px; }
+  .innerp {
+    background-color: #325498;
+    padding-left: 5px; }
+  .innerset {
+    background-clip: content-box;
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+    width: 100%; } }
+
+@media only screen and (min-device-width: 781px) {
+  .desktop {
+    box-sizing: content-box;
+    height: 300px;
+    padding: 5px 10px 5px 10px;
+    position: relative; }
+  .tablet {
+    height: 0;
+    padding-right: 34%;
+    padding: 0;
+    width: 66%; }
+  .lightgreen, .yellow {
+    background-color: white;
+    box-sizing: content-box;
+    float: left;
+    left: 0;
+    padding: 0;
+    position: relative;
+    width: 50%; }
+  .innerlg {
+    background-color: #14367a;
+    padding-right: 5px; }
+  .innery {
+    background-color: #1e4084;
+    padding-left: 5px; }
+  .green {
+    background-color: white;
+    box-sizing: content-box;
+    float: left;
+    left: 0;
+    padding: 0;
+    position: relative;
+    width: 34%; }
+  .innerg {
+    background-color: #3c5ea2;
+    padding-left: 5px; }
+  .innerp {
+    padding-right: 5px; } }
